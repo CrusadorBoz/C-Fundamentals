@@ -52,7 +52,7 @@ void readRecords(const char *filename) {
     char line[MAX_NAME + MAX_PHONE + MAX_MEMO + 3]; // +3 for separators and newline
     while (fgets(line, sizeof(line), file)) {
         if (sscanf(line, "%[^|]|%[^|]|%[^\n]", record.name, record.phone, record.memo) == 3) {
-            printf("Name: %s, Phone: %s, Memo: %s\n", record.name, record.phone, record.memo);
+            printf("Name: %s,\t Phone: %s,\t Memo: %s\n", record.name, record.phone, record.memo);
         }
     }
     fclose(file);
@@ -200,3 +200,5 @@ int main() {
     }
     return 0;
 }
+
+// gcc -o CRUD CRUD-struct.c
