@@ -208,3 +208,5 @@ int main() {
 // You will then have libsqlite3.a in the directory.  
 
 // You need to move both the header file sqlite3.h and libsqlite3.a into the folder of your project.
+
+// gcc -o C:\Users\"Name"\Documents\Programs\crud.exe crud.c libsqlite3.a
