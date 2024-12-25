@@ -55,3 +55,5 @@ int main()
 
     return 0;
 }
+
+// gcc -o C:\Users\"Name"\Documents\Programs\2D-Array.exe 2darray.c
