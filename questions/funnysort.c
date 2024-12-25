@@ -1,4 +1,5 @@
-// Write a function funnySort that sorts an array of integers in ascending order, but with a twist: every third number should be the largest number from the unsorted portion of the array up to that point. Here's what you need to do:
+// Write a function funnySort that sorts an array of integers in ascending order, but with a twist: every third number should be the 
+// largest number from the unsorted portion of the array up to that point. Here's what you need to do:
 
 // Given an array arr and its size n.
 // The function should modify arr in-place.
