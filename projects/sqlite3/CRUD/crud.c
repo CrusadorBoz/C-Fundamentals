@@ -200,7 +200,7 @@ int main() {
 // To compile gcc -o crud.exe crud.c libsqlite3.a -- You might have to install sqlite.
 // In this example, are are using the sqlite as static library.  We are not using dependencies.
 
-// You download the amalgamation files, and then compile the sqlite3.c file.
+// You download the amalgamation files, and then compile the sqlite3.c file as an object.
 // gcc -c sqlite3.c | We are doing this to get an object file.  It will be sqlite3.o
 
 // Then we have to make an archive.  Called libsqlite3.a
