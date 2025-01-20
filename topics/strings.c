@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 typedef struct {
     char name[50];
@@ -32,3 +33,5 @@ int main() {
 
     return 0;
 }
+
+// gcc -o print.exe strings.c
