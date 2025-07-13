@@ -23,8 +23,14 @@ void calculateMortgage(double principal, double annualInterestRate, int years) {
         balance -= principalPaid;
         
         // Print payment details for this month
-        printf("%d\t$%.2f\t$%.2f\t\t$%.2f\t\t$%.2f\n", 
-               month, balance, monthlyPayment, interest, principalPaid);
+        if (balance < 1000) {
+            printf("%d\t$%.2f\t$%.2f\t\t$%.2f\t\t$%.2f\n", 
+                month, balance, monthlyPayment, interest, principalPaid);
+        }
+        else {
+            
+        }
+        
 
         // If the balance goes negative due to rounding, set it to zero
         if (balance < 0) {
